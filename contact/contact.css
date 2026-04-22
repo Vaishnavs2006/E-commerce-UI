@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: aquamarine;
+    width: 100%;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav a:hover {
+
+    color: rgb(102, 209, 173);
+}
+
+.foot {
+    width: 100vw;
+    height: 12vh;
+    color: rgb(138, 160, 179);
+    text-align: center;
+
+}
+
+.foot p {
+    padding-top: 10px;
+}
+
+.container {
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    padding-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.intext {
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 30px;
+}
+
+.mess {
+    padding-bottom: 40px;
+}

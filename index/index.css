@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: aquamarine;
+    width: 100vw;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav a:hover {
+
+    color: rgb(102, 209, 173);
+}
+
+
+.tcont {
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.tcont {
+    text-align: center;
+    padding-top: 70px;
+    color: rgb(138, 160, 179);
+
+}
+
+#ftext {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: aquamarine
+}
+
+#stext {
+    padding-top: 20px;
+}
+
+.seccont {
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(138, 160, 179);
+
+}
+
+#f1text {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(7, 7, 7);
+}
+
+.box {
+    width: 80vw;
+    padding-top: 70px;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+.box h4 {
+    color: rgb(7, 7, 7);
+}
+
+.data:hover {
+    transform: translateY(-10px);
+}
+
+.data h4{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-weight: bolder;
+    color: rgb(34, 33, 33);
+}
+
+
+.thccont {
+    padding-bottom: 70px;
+
+
+}
+
+.foot {
+    width: 100vw;
+    height: 12vh;
+    color: rgb(138, 160, 179);
+    text-align: center;
+
+}
+.foot p{
+    padding-top: 10px;
+}
+
+.cbox {
+    
+    width: 70vw;
+    /* centers horizontly */
+    margin: 40px auto; 
+    border-radius: 15px;
+    overflow: hidden; /* important so images follow border radius */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
