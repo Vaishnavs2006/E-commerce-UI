@@ -8,13 +8,18 @@ body {
     overflow-x: hidden;
 }
 
+.mahn h3{
+    color: aquamarine;
+    padding-top: 10px;
+}
+.mahn{
+    display: flex;
+    justify-content: space-around;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
-    color: aquamarine;
-    width: 100vw;
-
 }
 
 .nav a {

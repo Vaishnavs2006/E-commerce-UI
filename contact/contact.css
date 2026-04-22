@@ -8,15 +8,19 @@ body {
     overflow-x: hidden;
 }
 
+.mahn h3{
+    color: aquamarine;
+    padding-top: 10px;
+}
+.mahn{
+    display: flex;
+    justify-content: space-around;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
-    color: aquamarine;
-    width: 100%;
-
 }
-
 .nav a {
     text-decoration: none;
     color: aquamarine;
@@ -99,4 +103,9 @@ button:hover {
 
 .mess {
     padding-bottom: 40px;
+}
+
+.container{
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        height: 80vh;
 }
